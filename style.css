@@ -3,57 +3,86 @@
     width: 300px;
         
 }
-.movies
-{
+#book1 {
+    height: 300px;
+    width: 300px;
+
+}
+
+.movies {
     font-size: 20px;
-    padding:6px 22px;
+    padding: 6px 22px;
     border-radius: 10px;
     margin-bottom: 15px;
-    width:100%;
-    display:inline;
+    width: 100%;
+    display: inline;
 }
-.mov i{
+
+.mov i {
     float: right;
 }
-/*to make the stars orange*/
-.movie_text span}
-{color: #ff7700
+
+
+.mynavbar {
+    height: 100px;
+    font-size: 25px;
 }
-.news_li{
-    margin:top:13px;
-    
+
+
+
+.campus img {
+    width: 100%;
 }
-.news_li h4{
+
+
+.movie_text span {
+    color: #ff7700
+}
+
+.news_li {
+    margin: top:13px;
+
+}
+
+.news_li h4 {
     border-bottom: 1px solid white;
     padding: 8px;
-    
+
 }
-.news_li img{
+
+.news_li img {
     border-radius: 25px;
-    
+
 }
-.news_li p{
-    margin-top:10px;
+
+.news_li p {
+    margin-top: 10px;
 }
-.book{
+
+.book {
     cursor: pointer;
 }
-.book hr{
+
+.book hr {
     margin-bottom: 10px;
 }
-.modal-content{
+
+.modal-content {
     margin-top: 100px
 }
-.img_modal{
-    display:inline-block;
-    height:400px;
+
+.img_modal {
+    display: inline-block;
+    height: 400px;
     width: 300px;
-    
+
 }
-.para{
+
+.para {
     margin-top: 10px;
-    
+
 }
-.modal-body{
+
+.modal-body {
     text-align: center;
 }

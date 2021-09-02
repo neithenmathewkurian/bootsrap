@@ -1,3 +1,6 @@
+<!DOCTYPE html>
+<html>
+
 <head>
     <title>school website</title>
     <meta charset="utf-8">
@@ -22,138 +25,199 @@
                 <span class="icon-bar"></span>
 
             </button>
-            <a class="navbar-brand"></a>
+            <!-- Add your Schools Name  or logo here. Give href as the github link, This is called branding -->
+
+            <a class="navbar-brand logo" href="https://neithenmathewkurian.github.io/bootsrap/">
+                <img src="https://www.fatimagirischool.com/images/logo.png"></a>
         </div>
         <div class="collapse navbar-collapse" id="mynav">
             <ul class="nav navbar-nav">
-                <li class="item">
+                <!-- This was removed -->
+                <!-- <li class="item"> -->
 
-
+                <!-- Give correct IDS -->
                 <li class="item">
+                    <!-- href="#Welcome=This should be the id of section/div where it should go when it is clicked. -->
+
                     <a href="#Welcome">fatimagiri english medium school</a>
 
                 </li>
-
+                <!-- href="#Archivements=This should be the id of section/div where it should go when it is clicked. -->
                 <li class="item">
                     <a href="#Archivements"> archivements</a>
 
                 </li>
+                <!-- href="#Campus_Life=This should be the id of section/div where it should go when it is clicked.And there should not be space in ID -->
                 <li class="item">
                     <a href="#Campus life">campus life</a>
 
                 </li>
                 <li class="item">
+                    <!-- href="#Whats_new=This should be the id of section/div where it should go when it is clicked.And there should not be space in ID -->
                     <a href="#Whats new">whats new</a>
 
                 </li>
                 <li class="item">
+                    <!-- href="#Contact_us=This should be the id of section/div where it should go when it is clicked.And there should not be space in ID -->
                     <a href="#Contact us"> contact us</a>
 
-                    <div class="anoncement">
-                        <marquee id="marqueestyle" onmouseover="this.stop();" onmouseout="this.starts();">
-
-                        </marquee>
-
-                    </div>
-
-
-                    <iframe id="video" src="https://www.youtube.com/embed/ZnOxBr5gq_o"></iframe>
-                    <div class="container">
-                        <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                            <h2 class="text-capitalize">our school church</h2>
-                        </div>
-                        <center>
-                            <div class="travel">
-                                <img class="img-responsive" src="https://upload.wikimedia.org/wikipedia/commons/a/a4/Church_Farm_HD.JPG">
-                                <h4><kbd>school church</kbd></h4>
-                                <hr>
-                                <h5 class="text-success text-left">i had visited in </h5>
-                                <p class="text-muted text-left "></p>
-
-                            </div>
+                    <!-- IMPORTANT -->
+                    <!-- li and ul  div and nav was not closed here -->
+                </li>
+            </ul>
+        </div>
+    </nav>
 
 
+    <div class="anoncement">
+        <!-- changedthis.starts() to this.start(); -->
+        <marquee style="font-size:28px;" id="marqueestyle" onmouseover="this.stop();" onmouseout="this.start();">
+          school website..
+        </marquee>
 
-                        </center>
-                        <div class="container">
-                            <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                <h2 class="text-capitalize">our school playground</h2>
-                            </div>
-                            <center>
-                                <div class="travel">
-                                    <img class="img-responsive" src="https://www.fatimagirischool.com/images/gallery/sprts.jpg">
-                                    <h4><kbd>school playground</kbd></h4>
-                                    <hr>
-                                    <h5 class="text-success text-left">i had visited in </h5>
-                                    <p class="text-muted text-left "></p>
+    </div>
 
-                                </div>
+    <!-- increased the height and width -->
+    <iframe id="video" src="https://www.youtube.com/embed/ZnOxBr5gq_o" height=700 width=1700></iframe>
+    <div class="container">
+        <!-- Give ID as campuslife here for the menu -->
+        <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <!-- Changed school church to campus life -->
+            <h2 class="text-capitalize">Campus Life</h2>
+        </div>
+        <center>
+            <!-- changed class from travel to campus -->
+            <div class="campus">
+                <img class="img-responsive"
+                    src="https://upload.wikimedia.org/wikipedia/commons/a/a4/Church_Farm_HD.JPG">
+                <h4><kbd>school church</kbd></h4>
+                <hr>
+                <!-- what is this for????? -->
+                <h5 class="text-success text-left">i had visited in </h5>
+                <p class="text-muted text-left "></p>
+
+            </div>
+        </center>
+        This is needed only in the beginning.
+        <!-- <div class="container">
+            <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12"> -->
+        <!-- <h2 class="text-capitalize">our school playground</h2>
+            </div> -->
+        <center>
+            <div class="campus">
+                <img class="img-responsive" src="https://www.fatimagirischool.com/images/gallery/sprts.jpg">
+                <h4><kbd>school playground</kbd></h4>
+                <hr>
+                <h5 class="text-success text-left">i had visited in </h5>
+                <p class="text-muted text-left "></p>
+
+            </div>
+        </center>
+        <!-- <div class="container">
+                <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <h2 class="text-capitalize">our school auiditorium</h2>
+                </div> -->
+        <center>
+            <div class="campus">
+                <img class="img-responsive"
+                    src="https://cache.careers360.mobi/media/schools/social-media/media-gallery/9141/2019/7/26/Fatimagiri%20English%20%20School-Group%20dances.jpg">
+                <h4><kbd>school auiditorium</kbd></h4>
+                <hr>
+                <h5 class="text-success text-left">i had visited in </h5>
+                <p class="text-muted text-left "></p>
+            </div>
+        </center>
 
 
 
-                            </center>
-                            <div class="container">
-                                <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                    <h2 class="text-capitalize">our school auiditorium</h2>
-                                </div>
-                                <center>
-                                    <div class="travel">
-                                        <img class="img-responsive" src="https://cache.careers360.mobi/media/schools/social-media/media-gallery/9141/2019/7/26/Fatimagiri%20English%20%20School-Group%20dances.jpg">
-                                        <h4><kbd>school auiditorium</kbd></h4>
-                                        <hr>
-                                        <h5 class="text-success text-left">i had visited in </h5>
-                                        <p class="text-muted text-left "></p>
-
-                                    </div>
+        <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <!-- Added heading -->
+            <h2 class="text-capitalize">School Achievements</h2>
+        </div>
 
 
+        <!-- glyphicons are icons. Google "bootstrap icons" ypu will get this link( https://getbootstrap.com/docs/3.3/components/)
+.You can see all the icons there.
+There is no glyphicon-science .Search the above lnk and find a suitable icon. -->
+        <div class="bg-primary mov" data-toggle="collapse" data-target="#s1">
+            <span class="glyphicon glyphicon-science project"></span>
+            science project<i class="fa fa-sort-desc"></i>
+        </div>
+        <div class="collapse" id="s1">
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12"> <img
+                    src="https://upload.wikimedia.org/wikipedia/commons/a/a5/US_Navy_100416-N-5539C-006_Construction_Electrician_3rd_Class_Jill_Johnston_and_Lt._Col._Johnny_Lizama_listen_to_third-graders_from_Harry_S._Truman_Elementary_School_explain_their_science_projects.jpg"
+                    class="img-responsive img-thumbnail">
+            </div>
+            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie_text">
+                <h5 class="text-success text-left text-capitalize">nice science project in
+                    fatimagiri english school<span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span> <span class="glyphicon glyphicon-star"></span> <span
+                        class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span> </h5>
+                <p>In My school they has in the science project it is wonderfull science project
+                </p>
+            </div>
+            <!-- div was not closed here -->
+        </div>
+        <!-- This is not needed. Only needed in the beginning -->
 
-                                </center>
-                                <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                    <h2 class="text-capitalize"></h2>
-                                </div>
-                                <div class="bg-primary mov" data-toggle="collapse" data-target="#s1">
-                                    <span class="glyphicon glyphicon-science project"></span> science progect<i class="fa fa-sort-desc"></i>
-                                </div>
-                                <div class="collapse" id="s1">
-                                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12"> <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/US_Navy_100416-N-5539C-006_Construction_Electrician_3rd_Class_Jill_Johnston_and_Lt._Col._Johnny_Lizama_listen_to_third-graders_from_Harry_S._Truman_Elementary_School_explain_their_science_projects.jpg" class="img-responsive img-thumbnail"> </div>
-                                    <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie_text">
-                                        <h5 class="text-success text-left text-capitalize">nice science project in fatimagiri english school<span class="glyphicon glyphicon-star"></span> <span class="glyphicon glyphicon-star"></span> <span class="glyphicon glyphicon-star"></span> <span class="glyphicon glyphicon-star"></span> <span class="glyphicon glyphicon-star"></span> </h5>
-                                        <p>In My school they has in the science project it is wonderfull science project</p>
-                                    </div>
-                                    <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                        <h2 class="text-capitalize"></h2>
-                                    </div>
-                                    <div class="bg-primary mov" data-toggle="collapse" data-target="#s2">
-                                        <span class="glyphicon glyphicon-play ground"></span> playground<i class="fa fa-sort-desc"></i>
-                                    </div>
-                                    <div class="collapse" id="s2">
-                                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12"> <img src="https://www.fatimagirischool.com/images/gallery/sprts.jpg"> </div>
-                                        <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie_text">
-                                            <h5 class="text-success text-left text-capitalize">nice playground in the fatimagiri endlish medium school<span class="glyphicon glyphicon-star"></span> <span class="glyphicon glyphicon-star"></span> <span class="glyphicon glyphicon-star"></span> <span class="glyphicon glyphicon-star"></span> <span class="glyphicon glyphicon-star"></span> </h5>
-                                            <p>In My school they has in the the nice play ground to play in the play ground there is a lot of space to play</p>
-                                        </div>
-                                        <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                            <h2 class="text-capitalize"></h2>
-                                        </div>
-                                        <div class="bg-primary mov" data-toggle="collapse" data-target="#s3">
-                                            <span class="glyphicon glyphicon-play studies"></span> studies<i class="fa fa-sort-desc"></i>
-                                        </div>
-                                        <div class="collapse" id="s3">
-                                            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12"> <img src="https://cache.careers360.mobi/media/schools/social-media/media-gallery/9141/2019/7/26/Fatimagiri%20English%20%20School-Class%20room.jpg"> </div>
-                                            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie_text">
-                                                <h5 class="text-success text-left text-capitalize">stuieds
-                                                    <span class="glyphicon glyphicon-star"></span> <span class="glyphicon glyphicon-star"></span> <span class="glyphicon glyphicon-star"></span> <span class="glyphicon glyphicon-star"></span> <span class="glyphicon glyphicon-star"></span>
-                                                </h5>
-                                                <p>In My school they they will teach us every subject in perfectly that is the nice class to study and play</p>
-                                            </div>
-<!--      news-->
+        <!-- <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <h2 class="text-capitalize"></h2>
+        </div> -->
+        <div class="bg-primary mov" data-toggle="collapse" data-target="#s2">
+            <!-- Search the above lnk and find a suitable icon. -->
+            <span class="glyphicon glyphicon-play ground"></span> playground<i class="fa fa-sort-desc"></i>
+        </div>
+        <div class="collapse" id="s2">
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12"> <img
+                    src="https://www.fatimagirischool.com/images/gallery/sprts.jpg">
+            </div>
+            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie_text">
+                <h5 class="text-success text-left text-capitalize">nice playground in the
+                    fatimagiri endlish medium school<span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span> <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span> <span class="glyphicon glyphicon-star"></span>
+                </h5>
+                <p>In My school they has in the the nice play ground to play in the play
+                    ground there is a lot of space to play
+                </p>
+            </div>
+
+            <!-- div was not closed here -->
+        </div>
+        <!-- <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <h2 class="text-capitalize"></h2>
+            </div> -->
+
+        <!-- find suitable icon/ -->
+        <div class="bg-primary mov" data-toggle="collapse" data-target="#s3">
+            <span class="glyphicon glyphicon-play studies"></span> studies<i class="fa fa-sort-desc"></i>
+        </div>
+        <div class="collapse" id="s3">
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12"> <img
+                    src="https://cache.careers360.mobi/media/schools/social-media/media-gallery/9141/2019/7/26/Fatimagiri%20English%20%20School-Class%20room.jpg">
+            </div>
+            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie_text">
+                <h5 class="text-success text-left text-capitalize">stuieds
+                    <span class="glyphicon glyphicon-star"></span> <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span> <span class="glyphicon glyphicon-star"></span>
+                </h5>
+                <p>In My school they they will teach us every subject in perfectly that
+                    is the nice class to study and play</p>
+            </div>
+            <!-- div was not closed here -->
+        </div>
+        <!--      news-->
         <!-- Connect this to menu -->
         <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12" id="news">
             <h2 class="text-capitalize">school news</h2>
         </div>
         <ul class="list-group">
             <li class="list-group-item list-group-item-success col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <!-- the image link should be inside the src  -->
+                <h4>
+                </h4>
                 
                 <img src="https://cache.careers360.mobi/media/schools/social-media/media-gallery/9166/2019/7/30/Good%20Hope%20English%20Medium%20School-Badminton%20winner.jpg" class="img-responsive col-lg-5col-md-5 col-sm-5 col-xs-12">
                 <p class="list-group-item-text col-lg-7 col-md-7 col-sm-7 col-xs-12">
@@ -164,13 +228,15 @@
             </li>
         </ul>
 
+
         <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12" id="my photo">
             <h2 class="text-capitalize">picture</h2>
         </div>
-        
+        <!-- Use # symbol when you give id in data target -->
         <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 book" data-toggle="modal" data-target="#B1">
-          <img src="C:\Users\Acer\Pictures\Saved Pictures/neithen.JPEG" class="img-responsive" id="picture1"> -->
-            
+            <!-- Always paste the picture in the same folder as the project and upload it in github.Then only the picture will be visible -->
+            <!-- <img src="C:\Users\Acer\Pictures\Saved Pictures/neithen.JPEG" class="img-responsive" id="picture1"> -->
+            <img src="https://i.pinimg.com/736x/ea/69/dc/ea69dc6226e72a33f82d3add20b470df.jpg" class="img-responsive">
             <hr>
             <p class="text-primary">neithen mathew kurian</p>
         </div>
@@ -182,15 +248,15 @@
                         <h4 class="modal-title">neithen mathew</h4>
                     </div>
                     <div class="modal-body">
-                        <img src="C:\Users\Acer\Pictures\Saved Pictures/neithen.jpeg" class="img-responsive"> -->
-                        <img src=""
+                        <!-- <img src="C:\Users\Acer\Pictures\Saved Pictures/neithen.jpeg" class="img-responsive"> -->
+                        <img src="https://i.pinimg.com/736x/ea/69/dc/ea69dc6226e72a33f82d3add20b470df.jpg"
                             class="img-responsive">
-                        <p class="para">my name is neithen mathew kuian i am studying in fatimagiri english medium school and iam a student of whitehat jr
-                        </p><br>
-        
+                        <p class="para">my name is neithen mathew kurian iam studing in fatimagiri english medium school i am a student of white hat junior no to say something this much only</p><br>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </body>
+
+</html>
